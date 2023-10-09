@@ -21,7 +21,7 @@ export default function Header({ posts }) {
         );
       })} */}
 
-      <div className="lg:flex flex-row items-center w-full py-6 lg:pl-60 pt-24">
+      <div className="bg-white lg:flex flex-row items-center w-full py-6 lg:pl-60 pt-24 sticky top-0 z-50">
         <Link href="/" className="w-3/12">
           <Image
             src="/rhino_logo.png"
