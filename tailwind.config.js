@@ -14,7 +14,7 @@ module.exports = {
       },
       colors: {
         primary: {
-          light: '#42A2FF',
+          light: '#00CF60',
           main: '#0F89FF',
           lightest: '#42A2FF',
         },
@@ -25,7 +25,16 @@ module.exports = {
           'cta-text-color': '#5F5F5F',
         },
       },
+      fontFamily: {
+        montserrat: ['Montserrat'],
+      },
     },
   },
   plugins: [],
+  safelist: [
+    {
+      pattern:
+        /^rotate-|bg-|text-|border-|rounded-|overflow-|pt-|pb-|pl-|pr-|truncate-|shrink/,
+    },
+  ],
 }
