@@ -3,7 +3,7 @@ import React from "react";
 
 const UtilityCard = ({ imageUrl, title, content, classname }) => {
   return (
-    <div className={`flex flex-col gap-5 mt-24 border-2 rounded-3xl border-primary-light justify-center items-center w-[250px] ${classname}`}>
+    <div className="flex flex-col items-center w-72 md:h-100 border-primary-light border-2 rounded-3xl ">
       <div>
         <Image
           src={imageUrl}
@@ -13,7 +13,7 @@ const UtilityCard = ({ imageUrl, title, content, classname }) => {
           className="pt-12"
         />
       </div>
-      <h1 className="text-black text-xl font-bold leading-8 pb-6 text-center">{title}</h1>
+      <h1 className="text-black text-xl font-bold leading-8 pb-6 lg:px-8 text-center">{title}</h1>
       <p className="text-center text-sm pb-11 px-8">{content}</p>
     </div>
   );

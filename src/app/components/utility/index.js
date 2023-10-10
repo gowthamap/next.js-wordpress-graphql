@@ -16,7 +16,7 @@ const UtilitySection = () => {
           reports.
         </p>
       </div>
-      <div className="flex gap-6">
+      <div className="relative before-gradient flex justify-center py-10 flex-wrap md:gap-5 md:py-0">
         {utilityCardData?.map((item) => {
           return (
             <UtilityCard
