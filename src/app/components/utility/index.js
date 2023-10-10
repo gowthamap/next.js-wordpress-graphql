@@ -10,7 +10,7 @@ const UtilitySection = () => {
           Take your utility consumption <br /> and sustainability <br /> to the
           <span className="text-primary-light"> next level</span>
         </h1>
-        <p className="text-sm text-[9px] mx-10 lg:mx-0 text-black pt-5 pb-20">
+        <p className="text-[9px] lg:text-sm  mx-10 lg:mx-0 text-black pt-5 pb-20">
           Rhino provides industry leaders with all the data they <br className="hidden lg:block" /> need to
           effectively manage energy, reduce CO2 <br className="hidden lg:block" /> emissions and draw up ESG
           reports.
